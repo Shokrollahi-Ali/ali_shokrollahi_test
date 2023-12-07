@@ -1,9 +1,10 @@
 import React from 'react';
+import LineOverlapChecker from './containers/LineOverlapChecker';
 
 const App: React.FC = () => {
   return (
     <div>
-      <h1>Hello, React with TypeScript!</h1>
+      <LineOverlapChecker />
     </div>
   );
 };
