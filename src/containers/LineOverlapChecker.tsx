@@ -22,8 +22,8 @@ const LineOverlapChecker: React.FC = () => {
     <div>
       <h2>Line Overlap Checker</h2>
       <div>
-        <label>Line 1 (lineOneStart, lineOneEnd):</label>
         <InputField
+          label='Line 1 (lineOneStart, lineOneEnd):'
           type='number'
           value={lineOneStart}
           onChange={(e) => setLineOneStart(parseInt(e.target.value, 10))}
@@ -36,8 +36,8 @@ const LineOverlapChecker: React.FC = () => {
       </div>
 
       <div>
-        <label>Line 2 (lineTwoStart, lineTwoEnd):</label>
         <InputField
+          label='Line 2 (lineTwoStart, lineTwoEnd):'
           type='number'
           value={lineTwoStart}
           onChange={(e) => setLineTwoStart(parseInt(e.target.value, 10))}
